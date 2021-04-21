@@ -10,7 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.spaces.PageObjects.spacesLandingPage;
+import org.spaces.PageObjects.spacesDashboardPage;
+//import org.spaces.PageObjects.spacesDashboardPage;
 
 
 public class signIn {
@@ -49,20 +50,23 @@ public class signIn {
         driver.get(prop.getProperty("URL"));
 
         //Create an object from the spaces landing page.
-        spacesLandingPage spacesLpage = new spacesLandingPage(driver);
+        spacesDashboardPage spacesLpage = new spacesDashboardPage(driver);
 
 
-        //Set fingerprint.
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("localStorage.clear();");
-        js.executeScript("localStorage.setItem('fingerPrint', '6343a9cf-1a2b-4d27-a74c-ff095522b594');");
+        //input username
+        spacesLpage.getusername().enterUsername();
+
+        //input password
+        spacesLpage.getpassword().enterPassword();
+
+        //Click login
+        spacesLpage.getloginToDashboard().clickLogin();
 
 
-        //Select continue
-        spacesLpage.getStartUpBar().selectContinue();
-
+        /*
         //Enter phone number
         spacesLpage.getFillPhoneNoBar().inputPhoneNo();
+
 
         //Click second button
         spacesLpage.getsecondContinueElement().secondContinueButton();
@@ -105,6 +109,8 @@ public class signIn {
         //Click Allow notification
         spacesLpage.getNotification().allowNotification();
 
+
+         */
 
         return driver;
     }

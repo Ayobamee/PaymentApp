@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spacesShop" />
         <module name="spacesShopServer" />
+        <module name="spacesAdmin" />
       </profile>
     </annotationProcessing>
   </component>

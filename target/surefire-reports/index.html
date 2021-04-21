@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-MyShopTestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MyShopTestSuite" title="org.spaces.addProductToCart" class="method navigator-link" hash-for-method="addProductToCartTest">addProductToCartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MyShopTestSuite" title="org.spaces.dashboard" class="method navigator-link" hash-for-method="dashboardTest">dashboardTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MyShopTestSuite" title="org.spaces.merchBuyDashboard" class="method navigator-link" hash-for-method="merchBuyDashboardTest">merchBuyDashboardTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MyShopTestSuite" title="org.spaces.login" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-MyShopTestSuite -->
@@ -125,14 +125,14 @@
           <div class="suite-MyShopTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.spaces.addProductToCart</span>
+              <span class="class-name">org.spaces.dashboard</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addProductToCartTest">
-                  </a> <!-- addProductToCartTest -->
-                  <span class="method-name">addProductToCartTest</span>
+                  <a name="dashboardTest">
+                  </a> <!-- dashboardTest -->
+                  <span class="method-name">dashboardTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -140,14 +140,14 @@
           <div class="suite-MyShopTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.spaces.merchBuyDashboard</span>
+              <span class="class-name">org.spaces.login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="merchBuyDashboardTest">
-                  </a> <!-- merchBuyDashboardTest -->
-                  <span class="method-name">merchBuyDashboardTest</span>
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -155,7 +155,7 @@
         </div> <!-- panel MyShopTestSuite -->
         <div panel-name="test-xml-MyShopTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/mac/Downloads/spacesMerchBuy/testng.xml</span>
+            <span class="header-content">/Users/mac/Downloads/spacesAdmin/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -164,8 +164,8 @@
 &lt;suite name=&quot;MyShopTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.spaces.merchBuyDashboard&quot;/&gt;
-      &lt;class name=&quot;org.spaces.addProductToCart&quot;/&gt;
+      &lt;class name=&quot;org.spaces.login&quot;/&gt;
+      &lt;class name=&quot;org.spaces.dashboard&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- MyShopTestSuite --&gt;
@@ -207,18 +207,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addProductToCartTest')
-data.setCell(0, 2, 'org.spaces.addProductToCart')
-data.setCell(0, 3, 43272);
+data.setCell(0, 1, 'dashboardTest')
+data.setCell(0, 2, 'org.spaces.dashboard')
+data.setCell(0, 3, 27198);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'merchBuyDashboardTest')
-data.setCell(1, 2, 'org.spaces.merchBuyDashboard')
-data.setCell(1, 3, 36408);
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'org.spaces.login')
+data.setCell(1, 3, 15343);
 window.suiteTableData['MyShopTestSuite']= { tableData: data, tableDiv: 'times-div-MyShopTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-MyShopTestSuite">
               </div> <!-- times-div-MyShopTestSuite -->
             </div> <!-- times-div -->
@@ -244,17 +244,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.spaces.merchBuyDashboard</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.spaces.login</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">merchBuyDashboardTest</span>
+                <span class="method-name">loginTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">org.spaces.addProductToCart</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.spaces.dashboard</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addProductToCartTest</span>
-                <span class="method-start">36411 ms</span>
+                <span class="method-name">dashboardTest</span>
+                <span class="method-start">15346 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

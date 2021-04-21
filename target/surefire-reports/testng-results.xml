@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-13T12:51:02Z" name="MyShopTestSuite" finished-at="2021-04-13T12:52:21Z" duration-ms="79710">
+  <suite started-at="2021-04-21T14:05:05Z" name="MyShopTestSuite" finished-at="2021-04-21T14:05:48Z" duration-ms="42558">
     <groups>
     </groups>
-    <test started-at="2021-04-13T12:51:02Z" name="Test" finished-at="2021-04-13T12:52:21Z" duration-ms="79710">
-      <class name="org.spaces.merchBuyDashboard">
-        <test-method signature="merchBuyDashboardTest()[pri:0, instance:org.spaces.merchBuyDashboard@66498326]" started-at="2021-04-13T13:51:02Z" name="merchBuyDashboardTest" finished-at="2021-04-13T13:51:38Z" duration-ms="36408" status="PASS">
+    <test started-at="2021-04-21T14:05:05Z" name="Test" finished-at="2021-04-21T14:05:48Z" duration-ms="42558">
+      <class name="org.spaces.dashboard">
+        <test-method signature="dashboardTest()[pri:0, instance:org.spaces.dashboard@5ace1ed4]" started-at="2021-04-21T15:05:21Z" name="dashboardTest" finished-at="2021-04-21T15:05:48Z" duration-ms="27198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- merchBuyDashboardTest -->
-      </class> <!-- org.spaces.merchBuyDashboard -->
-      <class name="org.spaces.addProductToCart">
-        <test-method signature="addProductToCartTest()[pri:0, instance:org.spaces.addProductToCart@b62d79]" started-at="2021-04-13T13:51:38Z" name="addProductToCartTest" finished-at="2021-04-13T13:52:21Z" duration-ms="43272" status="PASS">
+        </test-method> <!-- dashboardTest -->
+      </class> <!-- org.spaces.dashboard -->
+      <class name="org.spaces.login">
+        <test-method signature="loginTest()[pri:0, instance:org.spaces.login@1e6454ec]" started-at="2021-04-21T15:05:05Z" name="loginTest" finished-at="2021-04-21T15:05:21Z" duration-ms="15343" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProductToCartTest -->
-      </class> <!-- org.spaces.addProductToCart -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- org.spaces.login -->
     </test> <!-- Test -->
   </suite> <!-- MyShopTestSuite -->
 </testng-results>
