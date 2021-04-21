@@ -63,55 +63,6 @@ public class signIn {
         spacesLpage.getloginToDashboard().clickLogin();
 
 
-        /*
-        //Enter phone number
-        spacesLpage.getFillPhoneNoBar().inputPhoneNo();
-
-
-        //Click second button
-        spacesLpage.getsecondContinueElement().secondContinueButton();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        //Enter first Pin
-        spacesLpage.getFillPassword().inputFirstPin();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        //Enter Second Pin
-        spacesLpage.getFillPassword().inputSecondPin();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        //Enter Third Pin
-        spacesLpage.getFillPassword().inputThirdPin();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        //Enter Fourth Pin
-        spacesLpage.getFillPassword().inputFourthPin();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        //Enter Fifth Pin
-        spacesLpage.getFillPassword().inputFifthPin();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        //Enter Sixth Pin
-        spacesLpage.getFillPassword().inputSixthPin();
-
-        //Click login
-        spacesLpage.getLogin().hitLogin();
-
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
-        //Click Allow notification
-        spacesLpage.getNotification().allowNotification();
-
-
-         */
-
         return driver;
     }
 
