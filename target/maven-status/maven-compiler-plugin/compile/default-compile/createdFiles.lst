@@ -11,6 +11,7 @@ org/spaces/PageComponents/StartUpBar.class
 org/spaces/PageComponents/FillPassword.class
 org/spaces/PageComponents/Notification.class
 org/spaces/PageComponents/addIncompleteSales.class
+org/spaces/PageComponents/realms.class
 org/spaces/PageComponents/advancedSale.class
 org/spaces/PageComponents/advancedCompSale.class
 org/spaces/PageComponents/addSingleProduct.class
