@@ -22,6 +22,7 @@ org/spaces/PageObjects/myShopPage.class
 org/spaces/PageComponents/Login.class
 org/spaces/PageComponents/Shop.class
 org/spaces/AbstractComponents/AbstractComponent.class
+org/spaces/PageComponents/adminRealms.class
 org/spaces/PageComponents/totalSales.class
 org/spaces/PageComponents/AddCompBasicSale.class
 org/spaces/PageComponents/SimpleSaleConfirmation.class

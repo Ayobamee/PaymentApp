@@ -8,6 +8,7 @@
       <class name="org.spaces.agentManagement"/>
       <class name="org.spaces.users"/>
       <class name="org.spaces.realms"/>
+      <class name="org.spaces.adminRealms"/>
 
 
 

@@ -11,6 +11,7 @@ public class adminLandingPage {
     By agentManagement = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[2]/a[1]");
     By users = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[3]/a[1]");
     By realms = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[4]/a[1]");
+    By adminRealms = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[5]/a[1]");
 
 
 
@@ -61,6 +62,14 @@ public class adminLandingPage {
     {
         return new realms(driver, realms);
     }
+
+    public adminRealms getadminRealms()
+
+    {
+        return new adminRealms(driver, adminRealms);
+    }
+
+
 
 
 

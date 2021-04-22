@@ -1,3 +1,4 @@
-org/spaces/realms.class
 org/spaces/users.class
 org/spaces/agentManagement.class
+org/spaces/realms.class
+org/spaces/adminRealms.class
