@@ -6,6 +6,7 @@
       <class name="org.spaces.login"/>
       <class name="org.spaces.dashboard"/>
       <class name="org.spaces.agentManagement"/>
+      <class name="org.spaces.users"/>
 
 
 
