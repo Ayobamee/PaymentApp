@@ -9,6 +9,7 @@ public class adminLandingPage {
     By continueElement = By.xpath("//button[contains(text(),'Continue with phone number')]");
     By dashboard = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[1]/a[1]");
     By agentManagement = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[2]/a[1]");
+    By users = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[3]/a[1]");
 
 
 
@@ -48,4 +49,13 @@ public class adminLandingPage {
     {
         return new agentManagement(driver, agentManagement);
     }
+
+
+
+    public users getusers()
+
+    {
+        return new users(driver, users);
+    }
+
 }
