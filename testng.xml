@@ -8,9 +8,9 @@
       <class name="org.spaces.agentManagement"/>
       <class name="org.spaces.users"/>
       <class name="org.spaces.realms"/>
-      <class name="org.spaces.adminRealms"/>
-
-
+      <class name="org.spaces.adminUsers"/>
+      <class name="org.spaces.generateOtp"/>
+      <class name="org.spaces.trivia"/>
 
     </classes>
   </test> <!-- Test -->

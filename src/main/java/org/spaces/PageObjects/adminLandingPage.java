@@ -12,6 +12,8 @@ public class adminLandingPage {
     By users = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[3]/a[1]");
     By realms = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[4]/a[1]");
     By adminRealms = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[5]/a[1]");
+    By generateOtp = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[6]/a[1]");
+    By trivia = By.xpath("//body/div[@id='root']/div[1]/div[1]/ul[1]/li[7]/a[1]");
 
 
 
@@ -67,6 +69,19 @@ public class adminLandingPage {
 
     {
         return new adminRealms(driver, adminRealms);
+    }
+
+
+    public generateOtp getgenerateOtp()
+
+    {
+        return new generateOtp(driver, generateOtp);
+    }
+
+    public trivia gettrivia()
+
+    {
+        return new trivia(driver, trivia);
     }
 
 

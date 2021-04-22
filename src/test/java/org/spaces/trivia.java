@@ -6,22 +6,22 @@ import spaces.signIn;
 import java.io.IOException;
 
 
-public class adminRealms extends signIn {
+public class trivia extends signIn {
 
     @Test
 
-        public void adminRealmsTest() throws InterruptedException, IOException {
+        public void triviaTest() throws InterruptedException, IOException {
 
         //Sign into the app.
         driver = signIn();
 
 
-        //confirm if the  adminRealms elements loads.
+        //confirm if the trivia elements loads.
         adminLandingPage landing = new adminLandingPage(driver);
 
-        if(landing.getadminRealms().checkadminRealms()){
+        if(landing.gettrivia().checktrivia()){
 
-            System.out.println("Admin Realms module displays successfully");
+            System.out.println("Trivia module displays successfully");
         }
         else{
             System.out.println("Oops, something went wrong");
