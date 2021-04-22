@@ -14,6 +14,7 @@ org/spaces/PageComponents/advancedSale.class
 org/spaces/PageComponents/advancedCompSale.class
 org/spaces/PageComponents/addSingleProduct.class
 org/spaces/PageComponents/addProduct.class
+org/spaces/PageComponents/agentManagement.class
 org/spaces/PageComponents/confirmProd.class
 org/spaces/PageObjects/myShopPage.class
 org/spaces/PageComponents/Login.class

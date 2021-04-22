@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-21T14:16:03Z" name="MyShopTestSuite" finished-at="2021-04-21T14:17:19Z" duration-ms="76384">
+  <suite started-at="2021-04-22T09:20:24Z" name="MyShopTestSuite" finished-at="2021-04-22T09:21:00Z" duration-ms="36821">
     <groups>
     </groups>
-    <test started-at="2021-04-21T14:16:03Z" name="Test" finished-at="2021-04-21T14:17:19Z" duration-ms="76384">
+    <test started-at="2021-04-22T09:20:24Z" name="Test" finished-at="2021-04-22T09:21:00Z" duration-ms="36821">
       <class name="org.spaces.dashboard">
-        <test-method signature="dashboardTest()[pri:0, instance:org.spaces.dashboard@5ace1ed4]" started-at="2021-04-21T15:17:05Z" name="dashboardTest" finished-at="2021-04-21T15:17:19Z" duration-ms="14218" status="PASS">
+        <test-method signature="dashboardTest()[pri:0, instance:org.spaces.dashboard@27ff5d15]" started-at="2021-04-22T10:20:36Z" name="dashboardTest" finished-at="2021-04-22T10:20:48Z" duration-ms="12717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardTest -->
       </class> <!-- org.spaces.dashboard -->
       <class name="org.spaces.login">
-        <test-method signature="loginTest()[pri:0, instance:org.spaces.login@1e6454ec]" started-at="2021-04-21T15:16:03Z" name="loginTest" finished-at="2021-04-21T15:17:05Z" duration-ms="62143" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:org.spaces.login@b62d79]" started-at="2021-04-22T10:20:24Z" name="loginTest" finished-at="2021-04-22T10:20:36Z" duration-ms="11844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- org.spaces.login -->
+      <class name="org.spaces.agentManagement">
+        <test-method signature="agentManagementTest()[pri:0, instance:org.spaces.agentManagement@4e096385]" started-at="2021-04-22T10:20:48Z" name="agentManagementTest" finished-at="2021-04-22T10:21:00Z" duration-ms="12241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentManagementTest -->
+      </class> <!-- org.spaces.agentManagement -->
     </test> <!-- Test -->
   </suite> <!-- MyShopTestSuite -->
 </testng-results>
