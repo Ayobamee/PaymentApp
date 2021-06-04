@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="MyShopTestSuite">
+<suite name="koraPaySuite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.spaces.login"/>
-      <class name="org.spaces.dashboard"/>
-      <class name="org.spaces.agentManagement"/>
-      <class name="org.spaces.users"/>
-      <class name="org.spaces.realms"/>
-      <class name="org.spaces.adminUsers"/>
-      <class name="org.spaces.generateOtp"/>
-      <class name="org.spaces.trivia"/>
+      <class name="org.TestSuite.signUp"/>
+      <class name="org.TestSuite.login"/>
+      <class name="org.TestSuite.updateProfile"/>
+      <class name="org.TestSuite.changePassword"/>
+      <class name="org.TestSuite.logOut"/>
 
     </classes>
   </test> <!-- Test -->
